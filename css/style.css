@@ -1,0 +1,137 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.7;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: whitesmoke;
+    min-height: 10vh;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    min-height: 10vh;
+}
+
+li a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.9rem;
+    color: darkblue;
+    font-weight: 900;
+   
+}
+
+ul h1 {
+   font-size: 3rem;
+   font-family: cursive;
+}
+
+section.a {
+    background-image: url(/img/pexels-nina-hill-76946523-19843686.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section.a h1 {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 3px 1px black;
+    margin-left: 2rem;
+} 
+
+section.a p {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 3px 1px black;
+    margin-left: 2rem;
+} 
+
+
+button {
+    background-color: white;
+    border: none;
+    color: darkblue;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.7rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+section.b {
+    font-size: 2.1rem;
+    text-align:center;
+    color: black;
+    width: 80%;
+    margin: auto;
+    word-wrap: break-word;
+    text-wrap: wrap-content;
+    font-weight: lighter;
+}
+
+section.b h1 {
+    background-color: blue;
+    width: 40%;
+    padding: 0.5rem;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+section.c a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    border: 1px solid black;
+    padding: 2rem 4rem;
+    background-color: darkblue;
+    margin: 5rem;
+}
+
+section.d {
+    margin: 2rem;
+    font-size: 1.6rem
+    ;
+}
+
+section.d a {
+    text-decoration: none;
+    color: blue;
+}
+
+footer p {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: ;
+    font-size: 1.6rem;
+}

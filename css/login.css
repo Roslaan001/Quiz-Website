@@ -1,0 +1,114 @@
+html {
+    font-size: 62.5
+    
+    ;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.7;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkblue
+  
+}
+
+form input {
+   ; 
+}
+
+form{
+    margin-top: 10rem;
+    margin: auto; 
+    margin-top: 10rem;
+    text-align: left;
+    background-color: white;
+    width: 50%;
+    padding: 2rem 3rem 0 2rem;
+    box-shadow: 1px 1px 50px 1px rgba(0, 0, 0, 0.3) ;
+    height: 68vh;
+}
+
+form h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+label {
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+h6 {
+    position: fixed;
+    bottom: 1%;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    margin:2rem;
+    font-size: 1.6rem;
+    font-style: italic;
+
+}
+
+button a {
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border: 1px solid rgb(241, 2, 122) ;
+    outline: none;
+    border-radius: 5%;
+}
+
+button {
+    margin: auto;
+    background: rgb(241, 2, 122);
+    width: 100%;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+
+.forgot {
+    padding: 15rem;
+    margin: 5rem;
+    
+}
+
+.emsp {
+    height: 50px;
+    border: 1px solid rgb(100, 100, 100);
+    margin: auto;
+    position: absolute;
+    top: -79%;
+    left: 50%;
+}
+
+.c-f {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.c-f a {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.3rem;
+}
